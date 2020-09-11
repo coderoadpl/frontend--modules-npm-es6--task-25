@@ -1,6 +1,6 @@
-console.group('Transpiled module')
+console.group('Regular JS file')
 console.log(this)
-console.log(globalThis)
+console.log(globalThis) 
 console.log(window)
 
 ;(() => {
@@ -10,4 +10,4 @@ console.log(window)
     console.log(globalThis)
 })()
 
-console.groupEnd('Transpiled module')
+console.groupEnd('Regular JS file')
